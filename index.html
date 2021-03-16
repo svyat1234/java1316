@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 13 -->
+  
+  <div id="myProgress">
+      <div id="myBar">
+        <div id="label">0%</div>
+      </div>
+  </div>
+  <button class="myProgress__button" onclick="move()">Нажми меня полностью</button> <br>
+
+
+
+
+  <!-- 14 -->
+
+  <div class="popup" onclick="myFunction()">Click me
+  <span class="popuptext" id="myPopup">Просто бесполезная всплывашка :)</span>
+  </div>  <br>
+
+
+
+<!-- 15 -->
+
+<div class="fifteen">
+  <button class="accordion">Section 1</button>
+<div class="panel"><p>Данный текст не является пропогандой. Все трюки выполнены профессианалами.</p></div>
+<button class="accordion">Section 2</button>
+<div class="panel"><p>Данный текст не является пропогандой. Все трюки выполнены профессианалами.</p></div>
+<button class="accordion">Section 3</button>
+<div class="panel"><p>Данный текст не является пропогандой. Все трюки выполнены профессианалами.</p></div>
+</div>
+
+
+
+
+<!-- 16 -->
+
+<h1>Money Convertor</h1>
+  <p>
+    <label>$</label>
+    <input type="number" id="inputdol" placeholder="$" oninput="moneyConvertor(this.value)" onchange="moneyConvertor(this.value)">
+  </p>
+  <p>RUB: <span id="outputrub"></span></p>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
